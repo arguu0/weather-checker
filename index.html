@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <style>
+        header {
+            font-family: "Audiowide", sans-serif;
+        }
+        main {
+            font-family: "Trirong", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><u>Weather Checker</u></h1>
+    </header>
+    <main>
+        <form id="weatherform">
+            <label>Enter Location:</label>
+            <input style="width:200px;" type="text" id="city" placeholder="type any name...">
+            <input type="submit" value="Get Weather">
+        </form>
+        <p id="demo"></p>
+        <div id="clock"></div>
+        <figure><img id="icon"></figure>
+    </main>
+    <script defer src="script.js"></script>
+</body>
+</html>
